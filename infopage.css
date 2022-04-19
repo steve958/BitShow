@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  color: aliceblue;
+  background-color: black;
+  height: 75px;
+}
+
+input {
+  height: 50px;
+  width: 250px;
+  margin: 10px auto;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+h1 {
+  margin: 10px auto;
+}
+
+h1:hover {
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  color: aliceblue;
+  background-color: black;
+  height: 100px;
+}
+
+h2 {
+  font-size: 15px;
+  margin: 30px auto;
+}
+
+h2.title {
+  margin-top: 30px;
+  font-size: 55px;
+  text-align: center;
+  letter-spacing: 15px;
+}
+
+main {
+  margin-left: 80px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+img {
+  max-width: 650px;
+  height: auto;
+}
+
+span {
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+p {
+  margin: 10px;
+}
+
+.description {
+  font-weight: 700;
+  font-size: 35px;
+  text-align: left;
+}
+
+.description_p {
+  font-size: 25px;
+  font-weight: 300;
+  margin-top: 10px;
+  margin-left: 0;
+}
